@@ -1,0 +1,15 @@
+
+
+
+#contentLeft {
+	float: left;
+	width: 400px;
+}
+
+#contentLeft li {
+	list-style: none;
+	margin: 0 0 4px 0;
+	padding: 10px;
+	border: solid 1px;
+	
+}

@@ -1,0 +1,17 @@
+div#pupilmanagement{
+  position:absolute;
+  top:100px;
+  left:0;
+  width:<length>;
+  height:<height>;
+ }
+
+div#existingquestions
+{
+  text-align: left;
+  width: 200px;
+  display: block;
+  margin-left: 8%;
+  margin-right: auto;
+  margin-top:-30px;
+}

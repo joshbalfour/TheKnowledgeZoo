@@ -1,0 +1,57 @@
+<!doctype html> 
+<html>
+<head>
+<title>jQuizzy - Premium Quiz Engine</title>
+<link rel='stylesheet' href='css/styles.css' />
+<script src='js/jquery.js'></script>
+<script src="js/jquery.twFile.js"></script>
+<script src="js/jquery.base64.min.js"></script>
+</head>
+<body>
+<div id="nom"></div>
+
+<div id='quiz-container'></div>
+<script src="js/jquery.moarmudkipz.js"></script>
+<script>
+var filepathz = document.location.href; // Get the current file
+var filepathz2 = filepathz.substring(0, filepathz.indexOf("doquiz.html?id="+$._GET['id']));
+var filepathz3 = filepathz2 + 'userdata.ini';
+filepathz4 = $.twFile.convertUriToLocalPath(filepathz3); // Convert the path to a readable format
+var textz2 = $.twFile.load(filepathz4);
+var textz3 = $.base64.decode(textz2);
+var textz4 = textz3.substring(0, textz3.indexOf("~"));
+</script>
+<script>
+function selectedAnswer(selAns,qn)
+{
+var questionNumber=qn.substr(0,qn.indexOf('/'));
+var answerGiven=selAns;
+var id=$._GET['id'];
+var username= textz4;
+var filepath7 = filepathz2 + 'useranswers.ini';
+filepath8 = $.twFile.convertUriToLocalPath(filepath7);
+var answer=id+'|'+username+'|'+questionNumber+'|'+answerGiven;
+var anAnswer=$.base64.encode(answer);
+var anAnswerNewLine = anAnswer+'~';
+var existingAnswers = $.twFile.load(filepath8);
+if (existingAnswers != null)
+	{
+var newFile = existingAnswers + anAnswerNewLine;
+	};
+	else 
+		{
+		var newFile = anAnswerNewLine;
+		}
+$.twFile.save(filepath8,newFile);
+};
+</script>
+<script src='js/jquery.jquizzy.js'></script>
+	
+<script>
+ $('#quiz-container').jquizzy({
+			questions: init.questions, 
+			resultComments: init.resultComments
+		});
+ </script>	
+</body>
+</html>

@@ -1,0 +1,16 @@
+.expArrow{
+	padding-left: 20px;
+	background: url(../img/arrow-down.png) no-repeat 0px 4px;
+}
+.collArrow{
+	padding-left: 20px;
+	background: url(../img/arrow-up.png) no-repeat 0px 4px;
+}
+.expIco{
+	padding-left: 20px;
+	background: url(../img/plus.gif) no-repeat 0px 4px;
+}
+.collIco{
+	padding-left: 20px;
+	background: url(../img/minus.gif) no-repeat 0px 4px;
+}

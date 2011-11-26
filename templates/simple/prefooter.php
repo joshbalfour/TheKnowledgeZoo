@@ -1,0 +1,3 @@
+<!-- Defining Footer -->
+<footer>
+<section>

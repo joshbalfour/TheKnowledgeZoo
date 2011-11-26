@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^(.*).js$ js.php?file=$1 [NC]

@@ -1,0 +1,23 @@
+		#loginButton {
+		}
+
+		#error {
+			display: none;
+			float: left;
+			text-indent: 20px;
+			color: #F00;
+		}
+		#username {
+		display: block;	
+		}
+		#password {
+		display: block;	
+		}
+		#login {
+		text-align:center
+		}
+		#quizzes ul{
+		list-style-type: none;
+		margin-left: -8px;	
+		padding-top: 50px;
+		}
