@@ -1,3 +1,4 @@
+<?php //top part of the admin pannel template. ?>
 <!DOCTYPE html>
 <html>
 <head>

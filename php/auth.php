@@ -1,4 +1,6 @@
 <?php
+// algorithm that uses a cookie to verify the users authorisation to be in a protected area
+
 include("salts.php");
 include("db.php");
 // Create table

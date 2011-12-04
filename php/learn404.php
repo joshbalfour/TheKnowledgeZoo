@@ -1,3 +1,4 @@
+<?php //404 page that the pupils sees if he/she tries to access a page that does not exist ?>
 <!DOCTYPE HTML>
 <html>
 <head>

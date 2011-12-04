@@ -1,3 +1,4 @@
+<?php // allows the teacher to message all their pupils that have iDevices ?>
 <?php // $username=$_GET['u'];?>
 <?php include("db.php")?>
 <form id="sendmessage2">

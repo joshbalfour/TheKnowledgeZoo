@@ -1,3 +1,4 @@
+<?php //index page that the pupil sees ?>
 <!doctype html>
 <html lang="en">
 <head>

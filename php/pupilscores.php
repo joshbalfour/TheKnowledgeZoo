@@ -1,3 +1,4 @@
+<?php //template for the pupil's scores listing. ?>
 <div id="content">
 			<div class="inner">
 				<!--[if !IE]>start section<![endif]-->

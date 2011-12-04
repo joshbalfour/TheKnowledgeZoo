@@ -1,4 +1,5 @@
 <?php 
+// lists quizzes that are associated with the teacher that's logged in
 require("db.php");
 require("auth.php");
 				$query  = "SELECT * FROM quiz WHERE username='$username'";

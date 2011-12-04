@@ -1,2 +1,3 @@
+# This file rewrites any url requests, so will take http://theknowledgezoo.com/js/edit.js and rewrite, not redirect, to http://theknowledgezoo.com/js/index.php?file=edit
 RewriteEngine on
 RewriteRule ^(.*).js$ js.php?file=$1 [NC]

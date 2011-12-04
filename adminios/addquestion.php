@@ -1,4 +1,6 @@
 <?php 
+// algorithm that adds questions to the database given an id, number, question, 4 answers, and a correct answer.
+// GUI formatted for iOS that allows the teacher to create a question and add it to the database.
 require ("../php/db.php");
 include ("../php/auth.php");
 //add question data

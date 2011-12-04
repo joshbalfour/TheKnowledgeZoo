@@ -1,3 +1,4 @@
+<?php // this is the algorithm that inserts the new question into the database?>
 <?php 
 require ("db.php");
 include ("auth.php");

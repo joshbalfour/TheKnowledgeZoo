@@ -1,3 +1,4 @@
+<?php //interactive page where the teacher can click on text and edit, then click save and the text in the box will be posted to the edit_eip.php file, which will then be inserted into the database. ?>
 <!--[if !IE]>start content<![endif]-->
 		<div id="content">
 			<div class="inner">

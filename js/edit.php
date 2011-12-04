@@ -1,3 +1,4 @@
+<?php // adapted from http://docs.jquery.com/Tutorials:Edit_in_Place_with_Ajax ?>
 Event.observe(window, 'load', init, false);
 function init() {
 	EditInPlace.defaults['type'] = 'text';

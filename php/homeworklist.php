@@ -1,5 +1,6 @@
 <div id="homeworklist">
 <?php 
+// algorithm to pull all unique incomplete quizzes from the database where the username is the pupil's username
 require("../php/db.php");
 require("../php/authpupil.php");
 
@@ -14,7 +15,7 @@ require("../php/authpupil.php");
 	$result3 = mysql_query($query3,$conn);
 	while($row3 = mysql_fetch_array($result3, MYSQL_ASSOC))
 	  {
-	  	 //	if ()
+	  	 
 	  	?>
 <a href="doquiz?id=<?php  echo $row3['id']; ?>"><?php echo $row3['name'];?></a>
 <?php

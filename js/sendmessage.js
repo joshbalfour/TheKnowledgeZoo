@@ -1,4 +1,5 @@
-    $("#sendmessage").submit(function() {
+// takes the values of the textboxes with the ids slct and message and posts them to sendmessage.php
+$("#sendmessage").submit(function() {
       if ($("#messg").val() != "") {
           $.post("../push/sendmessage.php", { user: $("#slct").val(), message: $("#messg").val() });
           

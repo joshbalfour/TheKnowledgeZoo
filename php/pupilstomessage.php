@@ -1,3 +1,4 @@
+<?php //lists pupils who are assigned to the teacher's username who have iDevices ?>
 <?php
 $query = "SELECT * FROM push, quiz_users
 		  WHERE quiz_users.masterusername='$username' AND quiz_users.username=push.user";

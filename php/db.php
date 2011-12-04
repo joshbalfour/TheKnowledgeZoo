@@ -1,4 +1,5 @@
 <?php
+// database credentials
 $dbhost							= "localhost";
 $dbuser							= "joshbalfour";
 $dbpass							= "beaky1";

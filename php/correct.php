@@ -1,4 +1,5 @@
 <?php 
+// algorithm function to assess the correctness of an answer given
 function correct($answer,$number,$ident)
 {
 	require("db.php");

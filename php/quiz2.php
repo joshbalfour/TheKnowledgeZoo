@@ -1,4 +1,7 @@
-<?php $id=$_GET['id'];
+<?php 
+// Hacky method to detect completion of quiz 
+// old, disregard.
+$id=$_GET['id'];
 require("../php/authpupil.php");
 ?>
 <?php 

@@ -1,4 +1,5 @@
-</div>
+<?php // the bottom part of the admin pannel template
+?></div>
 	<!--[if !IE]>end wrapper<![endif]-->
 	
 	<!--[if !IE]>start footer<![endif]-->

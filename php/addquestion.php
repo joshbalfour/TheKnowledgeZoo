@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<?php 
+// GUI that allows the user to create a new question 
+?><!DOCTYPE html>
 <html>
 <head>
 <link href="../css/style.css" rel="stylesheet" type="text/css" />

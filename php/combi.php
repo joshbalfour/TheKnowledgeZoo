@@ -1,4 +1,5 @@
 <?php
+// an algorithm to combine all the javascript files into one to improve the loading time of the website
 ob_start("ob_gzhandler");
 //echo $_GET['phpjs'];
 //echo $_GET['js'];

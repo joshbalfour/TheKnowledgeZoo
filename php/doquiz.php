@@ -1,3 +1,4 @@
+<?php // the page on which the pupils do their quizzes ?>
 <?php $id=$_GET['id'];
 require("authpupil.php");?>
 <?php $number=rand(1,7);

@@ -1,3 +1,5 @@
+<?php //adapted from adobe EDGE generated code, inserted a php variable which changes what the animal says. ?>
+
 /**
  * Adobe Helium: symbol definitions
  */

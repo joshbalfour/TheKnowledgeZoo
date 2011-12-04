@@ -1,3 +1,4 @@
+<?php // algorithm to fetch all completed homeworks from the database for the pupil ?>
 <div id="completedhomework">
 <?php 
 require("../php/db.php");

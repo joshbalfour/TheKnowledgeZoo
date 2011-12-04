@@ -1,3 +1,4 @@
+// init the collapsers
 $(document).ready(function(){
 	
 	$('.username').collapser({

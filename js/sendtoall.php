@@ -1,3 +1,4 @@
+<?php // takes the value of the $_GET['u'] variable and the textbox with the id  messg2 and posts them to sendtoall.php?>
 <?php header('Content-Type: text/javascript');?>
     $("#sendmessage2").submit(function() {
       if ($("#messg2").val() != "") {

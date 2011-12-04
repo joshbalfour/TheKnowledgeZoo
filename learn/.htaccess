@@ -1,3 +1,5 @@
+# This file rewrites any url requests, so will take http://theknowledgezoo.com/learn/login and rewrite, not redirect, to http://theknowledgezoo.com/learn/learn.php?page=login
+
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d

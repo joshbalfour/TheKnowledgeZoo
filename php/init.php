@@ -1,3 +1,4 @@
+<?php //gets the quiz from the database and formats it into a JSON object which will then be used in the quiz engine ?>
 <?php require("../php/db.php")?>
 
 var init = { 

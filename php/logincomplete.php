@@ -1,3 +1,4 @@
+<?php //page that the pupils use to log into the quiz list page. ?>
 <!DOCTYPE html>
 <html>
 <head>

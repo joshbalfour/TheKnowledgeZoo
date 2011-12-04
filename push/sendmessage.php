@@ -1,3 +1,4 @@
+<?php //this script sends a push notification using the function in push.php  ?>
 <?php include("push.php"); include("../php/db.php");
 $username=$_POST['user'];
 $message=$_POST['message'];

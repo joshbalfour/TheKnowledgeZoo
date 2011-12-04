@@ -1,4 +1,4 @@
-
+//This script loads the list of quizzes after the user has entered a username and password
 		// Run on document load
 		jQuery(function() {
 			$('#loginButton').click(function() {

@@ -1,4 +1,5 @@
-<!--[if !IE]>start content<![endif]-->
+<?php // admin 404 page that shows that a user has tried to access a page that does not exist. 
+?><!--[if !IE]>start content<![endif]-->
 		<div id="content">
 			<div class="inner">
 

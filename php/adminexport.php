@@ -1,4 +1,5 @@
 <?php 
+// a gui that the teacher can use to initiate the export of quizzes offline.
 include("auth.php");
 ?>
 		<!--[if !IE]>start content<![endif]-->

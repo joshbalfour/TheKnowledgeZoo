@@ -1,4 +1,6 @@
-    $("#sendmessage2").submit(function() {
+// takes the value of the textbox with the id messg2 and posts it to sendtoall.php
+
+$("#sendmessage2").submit(function() {
       if ($("#messg2").val() != "") {
           $.post("../push/sendtoall.php", { user: $("#slct").val(), message: $("#messg2").val() });
           

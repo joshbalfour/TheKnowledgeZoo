@@ -1,3 +1,4 @@
+// taken from http://chriscook.me/web-development/phpajax-execute-php-function-by-clicking-a-link/
 function loadurl(dest) {
 
 	try {

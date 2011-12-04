@@ -1,3 +1,4 @@
+<?php //version of the quiz listing algorithm formatted for iOS ?>
 <?php 
 require("db.php");
 $username=$_GET['trololol'];

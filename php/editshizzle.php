@@ -1,3 +1,4 @@
+<?php //the javascript and css which is relavent to the pages where the user edits content on their website. ?>
 <link rel="stylesheet" type="text/css" 
 media="screen" href="../css/boxes.css">
 <script type="text/javascript" src="../js/ajax_link.js"></script>

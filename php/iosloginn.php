@@ -1,3 +1,4 @@
+<?php // version of the login algorithm that's formatted to iOS ?>
 <?php
 $auth=false; 
 if (!($_COOKIE['pupilusername']=='' and $_COOKIE['pupilpassword']=='')){$cookieset=true;}

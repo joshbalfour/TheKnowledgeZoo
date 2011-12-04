@@ -1,4 +1,6 @@
 <?php
+//adapted heavily from apple's push notification docu: http://developer.apple.com/library/mac/#documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ApplePushService/ApplePushService.html
+//this script sends a push notification to a given device token with a given message.
 function sendPush($deviceToken,$message){
 // Put your device token here (without spaces):
 if ($deviceToken==''){ $deviceToken = '2bd1e9360f4a8dc2cb41178ce93266a14bfeaf38e3954cbd9977d5b40ea67c6a';

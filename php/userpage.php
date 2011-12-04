@@ -1,4 +1,5 @@
 <?php 
+//old, disregard.
 require("../php/db.php"); 
 $page='';
 

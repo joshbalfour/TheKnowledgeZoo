@@ -1,3 +1,5 @@
+<?php //algorithm that updates the database with the given template
+	  //GUI to select a template  ?>
 <?php include("../php/iosheader.php") ?>
 <div id="header"><a href="index.php" id="backButton" class="nav">Back</a><h1>Templates</h1></div>
 

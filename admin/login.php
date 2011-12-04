@@ -1,3 +1,5 @@
+<?php // checks if the given credentials are in the database and if so generates a GUI that says that they're logged in else generates a GUI that says that thay're not. ?>
+
 <?php // ob_start("ob_gzhandler"); //gzip compression ?>
 <?php // include("../php/obfuscation.php")?>
 

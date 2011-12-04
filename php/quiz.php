@@ -1,4 +1,6 @@
-<?php $id=$_GET['id'];
+<?php 
+//old, disregard.
+$id=$_GET['id'];
 require("../php/authpupil.php");
 ?>
 <!doctype html> 

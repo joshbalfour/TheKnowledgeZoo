@@ -1,4 +1,4 @@
-
+<?php // dashboard section of the admin pannel template ?>
 		<!--[if !IE]>start content<![endif]-->
 		<div id="content">
 			<div class="inner">

@@ -1,5 +1,6 @@
-
- if (jQuery) (function($){
+//this script uses the GET variables to import the required quiz based on the GET variable's ID
+//it then saves each score into the userdata.ini file, coded into base64 for import later.
+if (jQuery) (function($){
 	// Import GET Vars
 	$._GET = [];
 	var urlHalves = String(document.location).split('?');

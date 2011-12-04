@@ -1,3 +1,4 @@
+<?php // version of the login screen that's formatted to iOS ?>
 <div id="header">
 		<h1>login</h1>
 		<a href="index.php" id="backButton" class="nav">Back</a>

@@ -1,3 +1,4 @@
+<?php //algorithm that submits an answer to the database given a quiz id, pupil's username, question number, and answer. ?>
 <?php
 require("../php/db.php");
 $id=$_GET['id'];

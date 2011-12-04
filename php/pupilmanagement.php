@@ -1,4 +1,5 @@
 <?php 
+// algorithm for adding a new pupil and gui for adding a new pupil and listing current pupil's credentials
 include("auth.php");
 $pupilname=$_POST['pupilname'];
 $hwkid=$_POST['id'];

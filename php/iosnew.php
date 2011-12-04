@@ -1,3 +1,4 @@
+<?php //version of the page creation algorithm formatted for iOS ?>
 <?php
 //DB entry
                 	    $con = mysql_connect("localhost", "joshbalfour", "beaky1");                	

@@ -1,4 +1,6 @@
 <?php
+//algorithm that inserts a new content box with sample content into the database for the user.
+
 //DB entry
                 	    $con = mysql_connect("localhost", "joshbalfour", "beaky1");                	
                 		$username=$_GET['user'];

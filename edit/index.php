@@ -1,6 +1,7 @@
+<?php //old, ignore.?>
 <html>
 <head>
-<title>AJAX Edit In Place With Prototype</title>
+<title></title>
 <style>
 html { height: 100%; margin-bottom: 1px;}
 body {  height: 100%; margin: 0; padding: 0;font: 10px arial, sans-serif;line-height: 150%;text-align: center;color: #A1988B;background-color: #FFF;}

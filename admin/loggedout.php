@@ -1,3 +1,4 @@
+<?php //this page logs the user out by setting the cookies to expire one hour ago and displays a page telling the user that they have logged out. ?>
 <?php ob_start("ob_gzhandler"); //gzip compression ?>
 <?php // include("../php/obfuscation.php")?>
 

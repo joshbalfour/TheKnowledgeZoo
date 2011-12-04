@@ -3,9 +3,12 @@
 /*
  * Joshua Balfour - Candidate Number 3176
  * notice to examiner:
- * Unless stated otherwise in a header such as this, the code on the page was written by myself.
+ * Unless stated otherwise in a header such as this, or below, the code on the page was written by myself.
  */
-
+// the /admin/ template was adapted from here: http://themeforest.net/item/ultraadmin-full-control-panel-4-skins/39483
+// the jQuery quiz engine, jQuizzy was adapted heavily from here: http://codecanyon.net/item/jquizzy-premium-quiz-engine/242295
+// the /learn/ template was adapted heavily and converted into html4 (for IE) from here: http://freehtml5templates.com/zoocroo-html5-and-css3-template-with-animation/
+// the /learn/ graphics were also heavily manipulated and were obtained from the above source.
 ?>
 <?php // include("php/obfuscation.php")?>
 <?php $index=true;?>

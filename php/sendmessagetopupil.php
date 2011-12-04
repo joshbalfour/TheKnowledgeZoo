@@ -1,3 +1,4 @@
+<?php // allows the teacher to message a pupil if the pupil has an iDevice ?>
 <?php // $username=$_GET['u'];?>
 <?php include("db.php")?>
 <script src="http://code.jquery.com/jquery-latest.js"></script>

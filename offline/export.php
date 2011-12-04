@@ -1,4 +1,9 @@
 <?php
+//this algorithm is complicated, let's chop it down into stages:
+//First it gets the IDs that are needing to be exported and writes them to a file
+//Then it gets the init.js for each ID that needs to be exported and adds those init.js files to the array of files to be zipped
+//It then names the file with the exact time it was generated, then creates the zip file.
+//After that it reads the file into the buffer and outputs it to the user for download.
 $currentFile = $_SERVER["SCRIPT_NAME"];
 $parts = Explode('/', $currentFile);
 $as=$_SERVER["SERVER_NAME"] . $_SERVER["SCRIPT_NAME"];

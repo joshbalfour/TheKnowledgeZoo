@@ -1,3 +1,4 @@
+<?php //public page that pulls the content of the specified page for the specified user ?>
 <!DOCTYPE html>
 <html>
 <head>

@@ -1,3 +1,4 @@
+<?php //page with no content for the doku. ?>
 <!--[if !IE]>start content<![endif]-->
 		<div id="content">
 			<div class="inner">

@@ -1,4 +1,5 @@
 <?php
+//an algorithm to find out which browser the user is using in order to serve the relavent version of the site.
 function getBrowser() 
 { 
     $u_agent = $_SERVER['HTTP_USER_AGENT']; 

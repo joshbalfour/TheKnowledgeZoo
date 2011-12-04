@@ -1,4 +1,5 @@
 <?php 
+// page that lists the quizzes that the pupil has not yet completed
 require("db.php");
 require("authpupil.php");
 $x=0;

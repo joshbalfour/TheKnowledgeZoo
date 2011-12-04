@@ -1,3 +1,4 @@
+<?php // clears cookies and redirects to the index page ?>
 <?php ob_start("ob_gzhandler"); //gzip compression?>
 <?php // include("../php/obfuscation.php")?>
 

@@ -1,3 +1,4 @@
+<?php //element of the pupil login process ?>
 <!DOCTYPE html>
 <html>
 <head>

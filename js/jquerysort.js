@@ -1,3 +1,4 @@
+//uses the jQuery sort and POST to make the content's new position save
 jQuery(document).ready(function(){ 
 						   
 	jQuery(function() {

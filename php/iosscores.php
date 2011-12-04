@@ -1,3 +1,4 @@
+<?php //version of the score listing algorithm formatted for iOS ?>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script src="../js/jquery.collapser.js"></script>
 <script src="../js/jquery.collapser.init.js"></script>

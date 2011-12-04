@@ -1,5 +1,6 @@
-/**
- * We use the initCallback callback
+//adapted from http://www.ajaxdaddy.com/demo-jquery-carousel.html
+/** 
+* We use the initCallback callback
  * to assign functionality to the controls
  */
 function mycarousel_initCallback(carousel) {

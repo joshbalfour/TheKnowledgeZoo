@@ -1,3 +1,5 @@
+<?php //algorithm for adding a new pupil, 
+      //algorithm that generates a GUI which lists the current pupils  ?>
 <?php include("../php/iosheader.php")?>
 <?php include("../php/db.php")?>
 <?php // include("../php/auth.php")?>

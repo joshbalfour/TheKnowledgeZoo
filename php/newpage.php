@@ -1,4 +1,6 @@
 <?php
+//algorithm to create new page and insert sample content into the page.
+
 //DB entry
                 	    $con = mysql_connect("localhost", "joshbalfour", "beaky1");                	
                 		$username=$_COOKIE['user'];

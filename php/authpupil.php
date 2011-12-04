@@ -1,4 +1,6 @@
 <?php
+// algorithm that uses a cookie to verify the pupils authorisation to be in a protected area
+
 $auth=false;
 $username=$_COOKIE['pupilusername'];
 $password=$_COOKIE['pupilpassword'];

@@ -1,4 +1,5 @@
 <?php 
+// API for the iOS app.
 include("../php/salts.php");
 require("../php/db.php");
 

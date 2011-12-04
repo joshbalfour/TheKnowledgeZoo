@@ -1,3 +1,4 @@
+<?php //lists current pupils and if they have an iDevice or not with an algorithm to asses that ?>
 <table cellpadding="0" cellspacing="0" width="100%">
 
 <tbody>

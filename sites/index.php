@@ -1,3 +1,4 @@
+<?php //this page pulls the requested user's page if it's present, if not then displays a 404 page. ?>
 <? ob_start("ob_gzhandler"); ?>
 <?php // include("../php/obfuscation.php")?>
 

@@ -1,3 +1,4 @@
+<?php // version of the template that's formatted to iOS ?>
 <!DOCTYPE HTML>
 <html>
 

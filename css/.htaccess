@@ -1,2 +1,4 @@
+# This file rewrites any url requests, so will take http://theknowledgezoo.com/css/style.css and rewrite, not redirect, to http://theknowledgezoo.com/css/css.php?file=style
+
 RewriteEngine on
 RewriteRule ^(.*).css$ css.php?file=$1 [NC]

@@ -1,3 +1,4 @@
+<?php //superseeded by native app ?>
 <?php
 // set the cookiez expiration date to one hour ago
 setcookie("pupilusername", "", time()-3600);

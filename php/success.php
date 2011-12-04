@@ -1,4 +1,5 @@
 <?php
+// algorithm that assesses which success has happened and outputs the appropriate message
 if ($newpupil)
 {
 	echo "new pupil added succesfully";

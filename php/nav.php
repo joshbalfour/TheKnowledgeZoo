@@ -1,3 +1,4 @@
+<?php //navigation bar that detects the current page and marks it as selected ?>
 		<div id="main_menu">
 			<div class="inner">
 			<ul>

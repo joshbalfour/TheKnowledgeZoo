@@ -1,3 +1,4 @@
+<?php //if user is authorised then displays a menu formatted for iOS that allows user to select a link to another page else displays a button to go to a login form.  ?>
 <?php include("../php/iosheader.php")?>
 <?php include("../php/auth.php")?>
 

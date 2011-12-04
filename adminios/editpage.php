@@ -1,3 +1,4 @@
+<?php //algorithm that generates GUI that allows the user to edit content on their page and add new content ?>
 <?php include("../php/iosheader.php")?>
 <?php $username=$_GET['CALL911RIGHTNOWWWWWWUBWUBWUBW']?>
 <?php include("../php/db.php")?>

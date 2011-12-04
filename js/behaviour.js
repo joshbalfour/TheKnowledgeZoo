@@ -1,3 +1,4 @@
+//part of the adobe EDGE library
 try {
   document.execCommand("BackgroundImageCache", false, true);
 } catch(err) {}

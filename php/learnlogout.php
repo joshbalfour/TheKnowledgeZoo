@@ -1,4 +1,6 @@
 <?php
+//logout page that clears cookies
+
 // set the expiration date to one hour ago
 setcookie("pupilusername", "", time()-3600);
 setcookie("pupilpassword", "", time()-3600);

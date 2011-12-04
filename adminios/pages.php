@@ -1,3 +1,5 @@
+<?php //algorithm that adds new page with placeholder content and a GUI that allows that event to be triggered
+	  //page that lists the teacher's pages. All formatted for iOS.  ?>
 <?php include("../php/iosheader.php")?>
 <?php $username=$_GET['becosomnomskay']?>
 <?php include("../php/db.php")?>

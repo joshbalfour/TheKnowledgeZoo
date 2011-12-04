@@ -1,3 +1,4 @@
+<?php //old, botched attempt, disregard.?>
 <ul>
 <li> <a href="edit.php">index</a></li><?php
 				$query  = "SELECT DISTINCT page FROM sites WHERE username='$username'";

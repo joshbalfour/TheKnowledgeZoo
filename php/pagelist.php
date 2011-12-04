@@ -1,3 +1,4 @@
+<?php //lists all unique page names associated with the specified user ?>
 <tr class="first">
 <td>index</td>
 <td>

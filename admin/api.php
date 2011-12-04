@@ -1,4 +1,6 @@
 <?php
+// API for the iOS app.
+
 $x=1;
 
 $username=$_POST["parameter"];

@@ -1,3 +1,4 @@
+//generated with Adobe EDGE
 window.symbols = {
 "stage": {
    version: "0.1",

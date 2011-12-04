@@ -1,4 +1,5 @@
 <?php 
+// algorithm for adding questions to a quiz, creating a new quiz, adding a new pupil, and assigning new homework to a pupil.
 require("db.php");
 include("auth.php");
 //setup tables//

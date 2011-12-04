@@ -1,3 +1,4 @@
+<?php //algorithm that checks if the given username and password are in the database, if so sets cookies appropriately. ?>
 <?php include("../php/iosheader.php")?>
 <div id="header"><h1>loading...</h1></div>
 <?php
@@ -52,7 +53,7 @@ else
 	 	
 		if (!($passattempt==$pwhash))
 		{
-		echo "YOU FAILED!!! <input class='button white' type='button' value='Retry' onClick='history.go(-1)'>";			
+		echo "Incorrect password!!! <input class='button white' type='button' value='Retry' onClick='history.go(-1)'>";			
 		}
 		else
 	 	{

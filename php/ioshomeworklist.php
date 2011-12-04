@@ -1,3 +1,4 @@
+<?php // version of the homework list that's formatted to iOS ?>
 <div id="header">
 		<h1>Your Quizzes</h1>		
 		<a href="javascript:window.location.href='logout.php'" class="nav Action">logout</a>

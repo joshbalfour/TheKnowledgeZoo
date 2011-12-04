@@ -1,4 +1,6 @@
 <?php 
+//this script compresses a given css file by removing all unnecessary whitespace, comments, and return characters.
+
 /* initialize ob_gzhandler to send and compress data */
 //ob_start ("ob_gzhandler");
 /* initialize compress function for whitespace removal */

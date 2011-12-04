@@ -1,4 +1,5 @@
 <?php
+// version of the quiz that's formatted to iOS
 //add more encouraging phrases from here: http://www.noogenesis.com/malama/encouraging_words.html
 ?>
 <?php $id=$_GET['id']; $id='174df2dea6f481f42a781711791fea32';

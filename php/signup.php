@@ -1,3 +1,4 @@
+<?php //signup form for the teacher ?>
 <!doctype html>
 
 <html>

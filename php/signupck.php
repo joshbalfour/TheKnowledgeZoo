@@ -1,3 +1,5 @@
+<?php //algorithm that adds the new user to the database after salting and hashing their email address and password ?>
+<?php // and then goes on to create their index page and fill it with sample content ?>
 <!doctype html>
 
 <html>

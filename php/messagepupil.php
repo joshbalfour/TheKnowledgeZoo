@@ -1,4 +1,5 @@
 <?php 
+// page that the teacher sees that allows them to message a pupil or their whole class who have iDevices
 include("auth.php");
 ?>
 		<!--[if !IE]>start content<![endif]-->

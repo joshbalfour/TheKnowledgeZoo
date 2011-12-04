@@ -1,3 +1,4 @@
+<?php //algorithm that sets the template name for a user's site and a GUI for choosing the new template ?>
 <?php 
 $template= $_POST["template"];
 if (!($template=='')){

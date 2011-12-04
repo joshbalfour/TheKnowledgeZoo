@@ -1,4 +1,5 @@
 <?php
+//gzips and compresses the javascript using JSMin library from http://www.crockford.com/javascript/jsmin.html
 ob_start("ob_gzhandler");
 define('FILE_TYPE', 'text/javascript'); 
 define('CACHE_LENGTH', 31356000); //one year

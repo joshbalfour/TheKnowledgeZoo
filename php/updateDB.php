@@ -1,4 +1,4 @@
-<?php 
+<?php // algorithm for updating the database when a content box is rearranged on the admin page
 require("db.php");
 $username=$_GET['username'];
 $action 		= mysql_real_escape_string($_POST['action']); 

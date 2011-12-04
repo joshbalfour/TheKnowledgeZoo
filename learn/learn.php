@@ -1,3 +1,5 @@
+<?php //this page finds the page that is requests and matches it to the appropriate PHP file ?>
+<?php //it also checks if the user is authorised from the auth.php file, and if they're not authed and are trying to acccess a restricted page then it sends them to the login screen. ?>
 <?php ob_start("ob_gzhandler"); //gzip compression?>
 <?php // include("../php/obfuscation.php")?>
 <?php   include("../php/bc.php");

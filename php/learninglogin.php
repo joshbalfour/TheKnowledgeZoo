@@ -1,4 +1,5 @@
 <?php
+//algorithm to allow the pupil to login
 $auth=false; 
 if (!($_COOKIE['pupilusername']=='' and $_COOKIE['pupilpassword']=='')){$cookieset=true;}
 

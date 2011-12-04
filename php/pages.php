@@ -1,3 +1,5 @@
+<?php //lists all pages from the specified user in a table with edit buttons,
+	  //accept post requests and creates new pages when the user specifies it to. ?>
 <?php require("db.php")?>
 <?php require("auth.php")?>
  

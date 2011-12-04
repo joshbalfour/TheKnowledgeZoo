@@ -1,4 +1,5 @@
 <?php 
+//gui for importing complete offline quizzes into the database
 include("auth.php");
 if ($_GET['s']=='n') {$failed = true;};
 if ($_GET['s']=='y') {$success = true;};

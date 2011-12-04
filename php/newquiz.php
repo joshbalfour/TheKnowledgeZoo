@@ -1,3 +1,4 @@
+<?php //form for creating a new quiz ?>
 <form name="form1" method="post" action="">
 
 

@@ -1,3 +1,4 @@
+<?php //old, botched attempt, disregard. ?>
 <?php require("php/db.php"); ?>
 <?php $page=$_GET["page"];?>
 <?php $username=$_COOKIE['user'];?>	

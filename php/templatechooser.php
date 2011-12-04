@@ -1,4 +1,5 @@
 <?php 
+// old, disregard.
 $template= $_POST["template"];
 require("db.php");
 	$username = $_COOKIE['user'];

@@ -1,3 +1,4 @@
+<?php // gui that lists the scores for each attempt for each question for each quiz for each pupil ?>
 <?php include("../php/iosheader.php")?>
 <style>
 li:hover {background:  #fff;}

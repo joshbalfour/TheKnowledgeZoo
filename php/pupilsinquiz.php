@@ -1,3 +1,4 @@
+<?php //lists the pupils that have the quiz assigned to and whether the homework has been completed. ?>
  <table border="1">
  <th>username</th>
  <th>completed</th>

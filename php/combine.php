@@ -1,4 +1,5 @@
 <?php
+// a botched attempt at combining all javascript files.
  $hs="<script src='http://code.jquery.com/jquery-latest.js'></script>
 	<script src='../js/jquery.jquizzy.js'></script>
 	<script src='../js/jquery.jquizzy.init.js'></script>

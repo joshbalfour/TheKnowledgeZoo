@@ -1,4 +1,6 @@
 <?php
+//GUI that lists the current quizzes associated with the user, with the option to create a new quiz
+//algorithm to add a new quiz
 include("auth.php");
 $quizname=$_POST['name'];
 $teachername=$_POST['teacher'];

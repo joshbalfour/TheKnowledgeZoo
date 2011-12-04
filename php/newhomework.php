@@ -1,3 +1,4 @@
+<?php // form to add homework to pupil as unfinished. ?>
 <form name="form1" method="post" action="">
 Pupil Name:
 <br>

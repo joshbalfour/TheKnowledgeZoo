@@ -1,3 +1,7 @@
+<?php 
+// epicly long and complicated algorithm to pull all pupil's scores associated with the teacher's username and format them correctly.
+// generates GUI that displays each attempt for each question for each pupil for each quiz in dropdown menus.
+?>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script src="../js/jquery.collapser.js"></script>
 <script src="../js/jquery.collapser.init.js"></script>

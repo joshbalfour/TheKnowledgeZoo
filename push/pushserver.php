@@ -1,4 +1,7 @@
 <?php
+// on the iOS app's first launch it registers with a given server for push notifications,
+// this is that server.
+// this script registers the given device in the database if it doesn't already exist.
 include("../php/db.php");
 $deviceToken=$_GET['devicetoken'];
 

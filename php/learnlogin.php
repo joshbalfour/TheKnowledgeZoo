@@ -1,3 +1,4 @@
+<?php //pupil login screen ?>
 <?php if ($_POST['username']==''){?>
 <form name="form1" method="post" action="login">
 Username:

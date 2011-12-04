@@ -1,3 +1,4 @@
+<?php //version of the pupil listing algorithm formatted for iOS ?>
 <table cellpadding="0" cellspacing="0" width="100%">
 
 <tbody>
