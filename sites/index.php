@@ -7,11 +7,10 @@ require("../php/db.php");
 $username=$_GET['user'];
 $userexists= false;
 
-
 if ($username == '')
 {
 $userexists= false;
- require("../php/db.php");?>
+?>
 
 <html>
 <body>
@@ -20,9 +19,9 @@ $userexists= false;
 <ul>
 <?php 
 $query5  = "SELECT DISTINCT username FROM sites";
-				$result5 = mysql_query($query5);
+				$result5 = mysql_query($query5, $conn);
 				
-				while($row5 = mysql_fetch_array($result5, $conn))
+				while($row5 = mysql_fetch_array($result5, MYSQL_ASSOC))
 				{
 				if (!($row5['username']==''))
 				{
@@ -44,9 +43,9 @@ else
 {
 
 $query5  = "SELECT * FROM sites WHERE username='$username'";
-				$result5 = mysql_query($query5);
-				
-				while($row5 = mysql_fetch_array($result5, $conn))
+				$result5 = mysql_query($query5, $conn);
+						
+				while($row5 = mysql_fetch_array($result5, MYSQL_ASSOC))
 				{
 				$userexists = true;
 				}

@@ -1,4 +1,5 @@
 <?php 
+//Algorithm for importing quiz scores into the database
 require("../../php/db.php");
 $uploaded=0;
 $ext="";

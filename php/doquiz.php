@@ -52,7 +52,7 @@ $encouragement=rand(1,5);
 	<script src='../js/jquery.jquizzy.init.js'></script>
 	<?php } else {?>	
 	<?php $js="
-	<script src='../js/jquery.jquizzy2.js'></script>	
+	<script src='../js/jquery.jquizzy.js'></script>	
 	<script src='../js/jquery.jquizzy.init.js'></script>
 	"?>
 	<?php $phpjs= "<script src='../js/init.php?id=".$id."'></script> 

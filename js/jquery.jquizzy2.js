@@ -133,6 +133,9 @@ else
         } else {
             thisLi.parents('.answers').children('li').removeClass('selected');
             thisLi.addClass('selected');
+ qn = thisLi.parents('.answers').siblings('.question-number').text();
+            
+            selectedAnswer(thisLi.text(),qn);
         }
     });
 
