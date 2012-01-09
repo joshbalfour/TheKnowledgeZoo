@@ -2,7 +2,7 @@
 /*
 *
 * Short description
-* API for the iOS app.
+* API for the pupil facing iOS app.
 *
 * Long description
 * This does the following:
