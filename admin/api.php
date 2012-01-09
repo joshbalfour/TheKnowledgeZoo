@@ -19,8 +19,6 @@ $x=1;
 $username=$_POST["parameter"];
 $password2=$_POST["parameter2"];
 
-/// edit from here //
-
 include("../php/salts.php");
 include("../php/db.php");
 
