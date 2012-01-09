@@ -115,10 +115,6 @@ mysql_close($conn);
 
 $response=$stuff;
 
-/// down to here, assigning the data to $response //
-
-
-
 
 
 header("Content-type: text/plain");
@@ -131,9 +127,22 @@ else
 ?>
 
 <?php 
+/*
+*
+* Short description
+* Converts an array into a format that the iOS app can use.
+*
+* Long description
+* This does the following:
+*	-takes each item of the array of each item of the array it's given
+*	-echos each item
+*	-echos 'itemfinisheh'
+*
+* @param        array [$array] the name of the user who is logging in
+* @return	string a format that the iOS app can use
+*/
 function epicparsehness($array){
-	////BAAAAANGARAAAAAAAAAAAAAAAAAANG WUBWUBWUBWUBWUBWUWBW
-	// moving on.....swiftly :3
+
 foreach ($array as $arrayofitems)
 {
 	
