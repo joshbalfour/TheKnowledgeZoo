@@ -1,16 +1,31 @@
 <?php 
-// API for the iOS app.
+/*
+*
+* Short description
+* API for the iOS app.
+*
+* Long description
+* This does the following:
+* 	-takes the user's username, password and UDID
+*	-checks if the user is logged in
+*	-checks if the device has already been registered to the user
+*	-if not then it inserts the data into the database
+*	-pulls the users complete and incomplete quizzes from the database
+* 	-formats the array in a manner that is fast, efficient, and that the iOS app can read
+*
+* @param        string [$username] the name of the user who is logging in
+* @param        string [$password] the password of the user who is logging in
+* @param        string [$UDID] the UDID of the user's device who is logging in
+*/
+
 include("../php/salts.php");
 require("../php/db.php");
 
-/*
-$username=$_GET['u'];
-$loginsucess=true;
-*/
 
 $username=$_POST["parameter"];
 $password=$_POST["parameter2"];
 $UDID=$_POST["parameter3"];
+
 $query  = "SELECT * FROM quiz_users WHERE username='$username' AND password='$password'";
 $result = mysql_query($query,$conn);
 while($row = mysql_fetch_array($result, MYSQL_ASSOC))
@@ -99,10 +114,23 @@ else
 
 ?>
 
-<?php 
+<?php
+/*
+*
+* Short description
+* Converts an array into a format that the iOS app can use.
+*
+* Long description
+* This does the following:
+*	-takes each item of the array of each item of the array it's given
+*	-echos each item
+*	-echos 'itemfinisheh'
+*
+* @param        array [$array] the name of the user who is logging in
+* @return	string a format that the iOS app can use
+*/
 function epicparsehness($array){
-	////BAAAAANGARAAAAAAAAAAAAAAAAAANG WUBWUBWUBWUBWUBWUWBW
-	// moving on.....swiftly :3
+	
 foreach ($array as $arrayofitems)
 {
 	
@@ -117,7 +145,16 @@ foreach ($array as $arrayofitems)
 
 }
 ?>
-<?php 
+<?php
+/*
+*
+* Short description
+* gets the maximum score that the pupil could possibly achieve on the given quiz id and the pupil's score for the given id
+*
+* @param        string [$id] the id of the quiz for which we want to get the maximum score
+* @global	string [$username] the username of the quiz
+* @return	string the pupil's score, a backslash, the max score the pupil could possibly achieve on the quiz
+*/
 function getScore($id){
 	$maxscore=0;
 	global $conn,$username;
