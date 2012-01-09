@@ -8,12 +8,11 @@
 * This does the following:
 * 	-takes the user's username and password
 *	-checks if the user is logged in
-*	-creates an array of the the 
+*	-creates an array of the the user's dashboard options
 * 	-formats the array in a manner that is fast, efficient, and that the iOS app can read
 *
 * @param        string [$username] the name of the user who is logging in
 * @param        string [$password] the password of the user who is logging in
-* @param        string [$UDID] the UDID of the user's device who is logging in
 */
 $x=1;
 
